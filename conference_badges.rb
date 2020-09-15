@@ -20,6 +20,6 @@ def assign_rooms(attendees)
 end
 
 def printer(attendees)
-  puts badges
-  puts room_assignments
+  puts badges.each
+  puts room_assignments.each
 end
